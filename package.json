@@ -1,0 +1,13 @@
+{
+  "name": "real-time-todo-list",
+  "version": "1.0.0",
+  "description": "A real-time to-do list application built with Node.js, Express, Socket.io, and MongoDB. This app allows users to create, update, and delete tasks in real-time, with data being stored in MongoDB for persistent task management. The real-time functionality is powered by Socket.io, enabling instant updates across multiple clients.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
